@@ -56,10 +56,10 @@ const int MOD = 1e9 + 7;
 void solve() {
     int n;
     cin >> n;
-    vi a(n);
-    cin >> a;            // ✅ works directly
-    sort(all(a));
-    cout << a << endl;   // ✅ prints with spaces
+    vi vec(n);
+    cin >> vec;            // ✅ works directly
+    sort(all(vec));
+    cout << vec << endl;   // ✅ prints with spaces
 }
 
 // -----------------------------
